@@ -1,0 +1,129 @@
+.container {
+  position: relative;
+  width: 1360px;
+  height: 1375px;
+  background-color: white;
+  border: solid black;
+}
+.navigation {
+  position: absolute;
+  width: 1109px;
+  height: 23px;
+  border: solid black;
+  top: 61px;
+  left: 126px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  position: absolute;
+  width: 90.13px;
+  height: 19.34;
+  margin-top: 0.12px;
+  margin-left: 0.07px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  left: 86%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  position: absolute;
+  width: 1110px;
+  height: 23px;
+  top: 1306px;
+  margin-left: 125px;
+  border: solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footermenu {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  left: 68%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.footerimage {
+  display: flex;
+}
+
+.footerimg {
+  margin-right: 20px;
+}
+
+.footerimg:last-child {
+  margin-right: 0;
+}
+.Contact-Title {
+  position: absolute;
+  width: 475px;
+  height: 174px;
+  top: 194px;
+  margin-left: 125px;
+  border: solid black;
+}
+.Contact-Brand {
+  position: absolute;
+  width: 445px;
+  height: 56px;
+  top: 390px;
+  margin-left: 125px;
+  border: solid black;
+}
+.Contact-Form {
+  position: absolute;
+  width: 475px;
+  height: 291px;
+  top: 215px;
+  margin-left: 760px;
+  border: solid black;
+}
+.Contact-Map {
+  position: absolute;
+  width: 1110px;
+  height: 570px;
+  top: 626px;
+  margin-left: 125px;
+  border: solid black;
+}

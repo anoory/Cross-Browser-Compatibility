@@ -1,0 +1,162 @@
+.container {
+  position: relative;
+  width: 1360px;
+  height: 2068px;
+  background-color: white;
+  border: solid black;
+}
+.navigation {
+  position: absolute;
+  width: 1109px;
+  height: 23px;
+  border: solid black;
+  top: 61px;
+  left: 126px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  position: absolute;
+  width: 90.13px;
+  height: 19.34;
+  margin-top: 0.12px;
+  margin-left: 0.07px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  left: 86%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  position: absolute;
+  width: 1110px;
+  height: 23px;
+  top: 2001px;
+  margin-left: 125px;
+  border: solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footermenu {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  left: 68%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.footerimage {
+  display: flex;
+}
+
+.footerimg {
+  margin-right: 20px;
+}
+
+.footerimg:last-child {
+  margin-right: 0;
+}
+.Project-title {
+  position: absolute;
+  width: 495px;
+  height: 130px;
+  top: 184px;
+  margin-left: 115px;
+  border: solid black;
+}
+.Project-Details {
+  position: absolute;
+  width: 335px;
+  height: 343px;
+  top: 222px;
+  margin-left: 900px;
+  border: solid black;
+}
+
+.Project-Text {
+  position: absolute;
+  width: 635px;
+  height: 222px;
+  top: 343px;
+  margin-left: 125px;
+  border: solid black;
+}
+.Project-Image {
+  position: absolute;
+  width: 1110px;
+  height: 660px;
+  top: 626px;
+  margin-left: 125px;
+  border: solid black;
+}
+.Project-Varia {
+  position: absolute;
+  width: 1110px;
+  height: 93px;
+  top: 1331px;
+  margin-left: 125px;
+  border: solid black;
+}
+.Project-Image1 {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: 1469px;
+  margin-left: 125px;
+  border: solid black;
+}
+.Project-Image2 {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: 1469px;
+  margin-left: 505px;
+  border: solid black;
+}
+.Project-Image3 {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  top: 1469px;
+  margin-left: 885px;
+  border: solid black;
+}
