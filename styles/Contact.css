@@ -3,13 +3,12 @@
   width: 1360px;
   height: 1375px;
   background-color: white;
-  border: solid black;
 }
 .navigation {
   position: absolute;
   width: 1109px;
   height: 23px;
-  border: solid black;
+
   top: 61px;
   left: 126px;
   margin: auto;
@@ -55,7 +54,7 @@ a {
   height: 23px;
   top: 1306px;
   margin-left: 125px;
-  border: solid black;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,7 +100,6 @@ a {
   height: 174px;
   top: 194px;
   margin-left: 125px;
-  border: solid black;
 }
 .Contact-Brand {
   position: absolute;
@@ -109,7 +107,6 @@ a {
   height: 56px;
   top: 390px;
   margin-left: 125px;
-  border: solid black;
 }
 .Contact-Form {
   position: absolute;
@@ -117,7 +114,6 @@ a {
   height: 291px;
   top: 215px;
   margin-left: 760px;
-  border: solid black;
 }
 .Contact-Map {
   position: absolute;
@@ -125,5 +121,70 @@ a {
   height: 570px;
   top: 626px;
   margin-left: 125px;
-  border: solid black;
+}
+.contact-heading {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  display: contents;
+}
+.contact-paragh {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #979797;
+  display: contents;
+}
+.Contact-Form {
+  position: absolute;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: #979797;
+}
+.Contact-Form .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.Contact-Form .inputBox input,
+.Contact-Form .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #979797;
+  outline: none;
+  resize: none;
+}
+.Contact-Form .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #979797;
+}
+.Contact-Form .inputBox input:focus ~ span,
+.Contact-Form .inputBox input:focus ~ span,
+.Contact-Form .inputBox textarea:focus ~ span,
+.Contact-Form .inputBox textarea:valid ~ span {
+  color: rgb(211, 63, 63);
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.Contact-Form .inputBox input[type="submit"] {
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
 }
