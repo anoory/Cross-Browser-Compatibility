@@ -3,13 +3,16 @@
 
 .container {
   position: relative;
-  width: 1360px;
-  height: 3840px;
+  max-width: 1360px;
+  width: 100%;
+  margin: auto;
+  min-height: 3840px;
   background-color: white;
 }
 .navigation {
   position: absolute;
-  width: 1109px;
+  max-width: 1109px;
+  width: 100%;
   height: 23px;
   top: 61px;
   left: 126px;
@@ -17,6 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: solid black;
 }
 .logo {
   position: absolute;
@@ -101,8 +105,9 @@ a {
 }
 .tittlebox {
   position: absolute;
-  width: 635px;
-  height: 251px;
+  max-width: 635px;
+  width: 100%;
+  min-height: 251px;
   top: 180px;
   margin-left: 125px;
   display: grid;
@@ -111,8 +116,9 @@ a {
 }
 .qoutebox {
   position: absolute;
-  width: 212px;
-  height: 34px;
+  max-width: 212px;
+  width: 100%;
+  min-height: 34px;
   top: 374px;
   margin-left: 950px;
   display: grid;
@@ -120,42 +126,48 @@ a {
 }
 .frambox {
   position: absolute;
-  width: 1110px;
-  height: 1960px;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 1960px;
   top: 537px;
   margin-left: 126px;
 }
 .groupbox {
   position: absolute;
-  width: 1079px;
-  height: 106px;
+  mix-width: 1079px;
+  width: 100%;
+  min-height: 106px;
   top: 2626px;
   margin-left: 126px;
 }
 .awardsbox {
   position: absolute;
-  width: 1110px;
-  height: 823px;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 823px;
   top: 2833px;
   margin-left: 125px;
 }
 .Divider {
   position: absolute;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 2px;
   top: 2833px;
   margin-left: 125px;
 }
 .Dividercopy {
   position: absolute;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 2px;
   top: 3244px;
   margin-left: 125px;
 }
 .Divercopy2 {
   position: absolute;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 2px;
   top: 3654px;
   margin-left: 125px;

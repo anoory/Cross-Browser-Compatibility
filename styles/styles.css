@@ -16,11 +16,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .logo {
@@ -33,7 +33,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .menu {
@@ -46,8 +46,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   left: 86%;
 }
 
@@ -79,11 +79,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footermenu {
@@ -96,10 +96,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   left: 68%;
 }
 
@@ -143,9 +143,9 @@ a {
   margin-left: 125px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[9];
+  -ms-grid-rows: (1fr) [9];
   grid-template-rows: repeat(9, 1fr);
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr) [3];
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -292,7 +292,7 @@ a {
   margin-left: 950px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[2];
+  -ms-grid-rows: (1fr) [2];
   grid-template-rows: repeat(2, 1fr);
 }
 
@@ -421,9 +421,13 @@ a {
   position: absolute;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+  -ms-grid-rows: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px
+    1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr
+    10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px
+    1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
   grid-template-rows: repeat(32, 1fr);
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr
+    10px 1fr 10px 1fr;
   grid-template-columns: repeat(9, 1fr);
   grid-gap: 10px;
 }
@@ -1979,7 +1983,7 @@ a {
 .groupbox {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[11];
+  -ms-grid-columns: (1fr) [11];
   grid-template-columns: repeat(11, 1fr);
 }
 
@@ -2068,9 +2072,14 @@ ul li {
   position: absolute;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+  -ms-grid-rows: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px
+    1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr
+    10px 1fr 10px 1fr 10px 1fr 10px 1fr;
   grid-template-rows: repeat(20, 1fr);
-  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr
+    10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px
+    1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr
+    10px 1fr 10px 1fr 10px 1fr;
   grid-template-columns: repeat(27, 1fr);
   grid-gap: 10px;
 }

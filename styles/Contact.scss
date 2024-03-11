@@ -1,12 +1,15 @@
 .container {
   position: relative;
-  width: 1360px;
-  height: 1375px;
+  max-width: 1360px;
+  width: 100%;
+  margin: auto;
+  min-height: 1375px;
   background-color: white;
 }
 .navigation {
   position: absolute;
-  width: 1109px;
+  max-width: 1109px;
+  width: auto;
   height: 23px;
 
   top: 61px;
@@ -50,7 +53,8 @@ a {
 }
 .footer {
   position: absolute;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 23px;
   top: 1306px;
   margin-left: 125px;
@@ -96,7 +100,9 @@ a {
 }
 .Contact-Title {
   position: absolute;
-  width: 475px;
+  max-width: 475px;
+  width: 100%;
+  margin: auto;
   height: 174px;
   top: 194px;
   margin-left: 125px;
@@ -110,14 +116,17 @@ a {
 }
 .Contact-Form {
   position: absolute;
-  width: 475px;
+  max-width: 475px;
+  width: 100%;
+  margin: auto;
   height: 291px;
   top: 215px;
   margin-left: 760px;
 }
 .Contact-Map {
   position: absolute;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   height: 570px;
   top: 626px;
   margin-left: 125px;
